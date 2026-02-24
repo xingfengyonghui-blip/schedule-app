@@ -230,3 +230,9 @@
     color: white;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .day {
+    color: white;
+  }
+}

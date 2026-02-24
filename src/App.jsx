@@ -153,7 +153,7 @@ export default function App() {
           className={`day ${selectedDates.has(dateStr) ? "selected" : ""}`}
           onClick={() => toggleDateSelection(dateStr)}
           style={{
-            color: weekDay === 0 ? "red" : weekDay === 6 ? "blue" : "black"
+            color: weekDay === 0 ? "red" : weekDay === 6 ? "blue" : ""
           }}
         >
           <div className="date-number">{d}</div>
