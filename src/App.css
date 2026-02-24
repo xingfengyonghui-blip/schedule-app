@@ -142,9 +142,19 @@
     font-size: 12px;
   }
 
+  /*.event-text {
+    display: none; /* スマホはドットのみ 
+  }*/
+
   .event-text {
-    display: none; /* スマホはドットのみ */
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 60px;
+  display: inline-block;
   }
+
 
   .marker {
     width: 18px;
@@ -160,5 +170,55 @@
   .calendar-header button {
     padding: 8px;
     width: 100%;
+  }
+}
+
+/* =========================
+   ダークモード対応
+========================= */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  .container {
+    background-color: #1e1e1e;
+  }
+
+  .day {
+    border: 1px solid #444;
+    background-color: #1a1a1a;
+  }
+
+  .day:hover {
+    background-color: #2a2a2a;
+  }
+
+  .day.selected {
+    border: 2px solid #4da3ff;
+    background-color: #1f2a38;
+  }
+
+  .schedule-item {
+    background-color: #2a2a2a;
+  }
+
+  .input-group input,
+  .input-group select {
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid #555;
+  }
+
+  .calendar-header button,
+  .input-group button {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+  }
+
+  .over-limit {
+    color: #ff6b6b;
   }
 }
