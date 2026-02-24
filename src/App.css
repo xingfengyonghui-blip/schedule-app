@@ -222,3 +222,11 @@
     color: #ff6b6b;
   }
 }
+
+
+/* ダークモード ＋ スマホ */
+@media (prefers-color-scheme: dark) and (max-width: 600px) {
+  .event-text {
+    color: white;
+  }
+}
