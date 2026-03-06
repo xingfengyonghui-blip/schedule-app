@@ -78,9 +78,11 @@
   border-radius: 50%;
 }
 
-  .event-text {
+.event-text {
   color: black;
-  }
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 .marker {
   position: absolute;
