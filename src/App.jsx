@@ -200,7 +200,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h2>スケジュール帳＜仕事編＞</h2>
+      <h2>スケジュール帳＜for you＞</h2>
 
       {/* 入力フォーム */}
       <div className="input-group">
