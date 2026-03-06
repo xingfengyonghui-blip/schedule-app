@@ -78,6 +78,10 @@
   border-radius: 50%;
 }
 
+  .event-text {
+  color: black;
+  }
+
 .marker {
   position: absolute;
   top: 2px;
