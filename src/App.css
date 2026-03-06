@@ -72,10 +72,6 @@
   margin-bottom: 2px;
 }
 
-.event-text {
-  color: white;
-}
-
 .event-dot {
   width: 10px;
   height: 10px;
@@ -206,6 +202,10 @@
 
   .schedule-item {
     background-color: #2a2a2a;
+  }
+
+  .event-text {
+  color: white;
   }
 
   .input-group input,
