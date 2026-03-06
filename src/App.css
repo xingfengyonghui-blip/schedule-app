@@ -72,6 +72,10 @@
   margin-bottom: 2px;
 }
 
+.event-text {
+  color: white;
+}
+
 .event-dot {
   width: 10px;
   height: 10px;
@@ -153,7 +157,6 @@
   text-overflow: ellipsis;
   max-width: 60px;
   display: inline-block;
-  color:white
   }
 
 
@@ -226,7 +229,7 @@
 
 
 /* ダークモード ＋ スマホ */
-@media (prefers-color-scheme: dark) and (max-width: 600px) {
+@media (prefers-color-scheme: dark) {
   .event-text {
     color: white;
   }
